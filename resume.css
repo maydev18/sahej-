@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Raleway:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway','Noto Sans' , sans-serif;
+}
+.home{
+    background-color:  #ff4c68;
+    color: #fff;
+    padding-top: 7rem;
+    border-bottom: 0.01rem solid white;
+}
+.home img{
+    width: 25%;
+    border-radius: 50%;
+}
+.home-socials a{
+    color: white;
+    font-size: 4rem;
+}
+.home-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-socials{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-text h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.home-text h1{
+    font-weight: 1000;
+    font-size: 3rem;
+}
+.typewriter{
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+.about{
+    background-color: white;
+    color: black;
+    padding-top: 2rem;
+}
+.about-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 4rem 2rem 4rem;
+}
+.about-details img{
+    width: 30%;
+    border-radius: 2rem;
+}
+.about-details p{
+    margin-right: 15rem;
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.headings{
+    text-align: center;
+    font-weight: 600;
+    color:crimson;
+    text-transform: uppercase;
+}
+.bttn{
+    position: relative;
+    left: 26rem;
+    bottom: 8rem;
+}
+.myrow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 6rem 3rem 6rem 3rem;
+}
+.row-data{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    align-items:center;
+    justify-content: space-around;
+}
+.logo{
+    width: 10%;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.skill-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.education{
+    background-color: #ff4c68;
+    color: white;
+    padding : 1rem 16rem 5rem 16rem
+}
+.education-img{
+    width: 15%;
+    border-radius: 2rem;
+}
+.education-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.education-details{
+    margin-left: 6rem;
+}
+.education-details h1{
+    font-weight: 600;
+    color  :wheat;
+}
+.education-details ul li{
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+}
+.achievements{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.achievements img{
+    width: 22%;
+    border-radius: 2rem;
+}
+.achievements-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 2rem 2rem 2rem;
+}
+.achievements-details ul li{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+}
+.form{
+    margin-top: 2rem;
+}
+.contact{
+    background-color: #ff4c68;
+    color: white;
+    padding-top: 3rem;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.details{
+    padding: 0.5rem 0 0.5rem 1rem;
+    background-color: white;
+    color: black;
+    width: 50%;
+    border-radius:0.5rem;
+    border: 0;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+::placeholder{
+    color: black;
+}
+.submitbtn{
+    position: relative;
+    left: 45%;
+    right: 40%;
+    cursor: pointer;
+    width: auto;
+    margin-bottom: 1rem;
+}
+footer{
+    background-color:wheat;
+    color:black;
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    font-size: 1.2rem;
+}
+.icon-text{
+    margin-left: 2rem;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-details{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
